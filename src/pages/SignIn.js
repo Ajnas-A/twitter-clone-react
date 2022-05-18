@@ -30,7 +30,7 @@ function SignIn() {
                         </div>
                     </div>
                     <div className='w-full h-full  flex items-center sm:items-start justify-center  '>
-                        <div className='w-[534px] h-[348] mx-[118px] px-[32px] pb-[48px] flex flex-col items-start  justify-start space-y-11'>
+                        <div className='w-full lg:w-[534px] px-4 py-2 lg:h-[348] lg:mx-[118px] lg:px-[32px] lg:pb-[48px] flex flex-col items-start  justify-start  space-y-11'>
                             <div className=' text-twitter-silver font-bold text-3xl'>Sign In to Twitter</div>
                             <div className='space-y-5 w-full'>
                                 <Button text='Sign in with Google' css='bg-white text-black' />
