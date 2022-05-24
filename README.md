@@ -19,6 +19,10 @@ Dark Mode:
 Supports Dark Mode, toggle option in sidebar.
 ![darkmode](https://user-images.githubusercontent.com/93180796/169946433-3a12e406-fe72-41ec-bb55-4e78505e6ccd.png)
 
+Mobile Responsive:
+
+![twitter-mobile](https://user-images.githubusercontent.com/93180796/169947900-34016730-ff31-4153-ab0f-79f05547d0e9.png)
+
 /signin: 
 Here you can sign in with your google account to create an account with this clone. 
 Note: Currently only google signin is implemented.
