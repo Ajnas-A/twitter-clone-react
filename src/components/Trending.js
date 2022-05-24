@@ -22,9 +22,8 @@ function Trending({ trendingData, setTrendingData, setSearchData, search, search
                     <div className='flex flex-col items-start justify-center space-y-1  overflow-clip'>
 
                         <div className=' text-sm font-semibold text-black/50 dark:text-slate-500'>{key + 1}. Trending</div>
-                        <div className=' text-lg font-semibold'> <p>{e.name}</p>  </div>
-                        <div className='text-blue-500 text-sm'> <p className=' break-all'><a href={e.url}>{e.url}</a></p> </div>
-                        {e.tweet_volume && <div className='text-sm text-black/50'>{e.tweet_volume} Tweets </div>}
+                        <div className=' text-lg font-semibold'><a href={e.url}> <p>{e.name}</p></a>  </div>
+                        {e.tweet_volume && <div className='text-sm text-black/50 dark:text-slate-700'>{e.tweet_volume} Tweets </div>}
                     </div>
 
                 </div>

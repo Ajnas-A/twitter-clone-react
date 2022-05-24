@@ -19,9 +19,9 @@ function Button({ text, css }) {
         return
     }
     return (
-        <div onClick={handleSignIn} className={`w-full h-full cursor-pointer  rounded-full px-4 py-2 text-center  font-semibold flex items-center justify-center space-x-2 ${css}`}>
+        <div onClick={handleSignIn} className={`w-full h-full cursor-pointer  rounded-full px-4 py-2 text-center  font-semibold flex items-center justify-center space-x-2 ${css} ${text !== 'Sign in with Google' ? text !== 'Sign In' ? 'cursor-not-allowed' : '' : ''}`}>
             <ImageLogoSVG text={text} />
-            <button className='flex items-center'>{text}</button>
+            <button className={`flex items-center ${text !== 'Sign in with Google' ? text !== 'Sign In' ? 'cursor-not-allowed' : '' : ''}`}>{text}</button>
         </div>
     )
 }

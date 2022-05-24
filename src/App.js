@@ -16,8 +16,8 @@ function App() {
       <Toaster />
       <Router>
         <Routes>
-          <Route path='/home' element={<FinalApp />} exact />
-          <Route path='/' element={<SignUp />} exact />
+          <Route path='/' element={<FinalApp />} exact />
+          <Route path='/signup' element={<SignUp />} exact />
           <Route path='/signin' element={<SignIn />} exact />
           <Route path='/redirect/:email' element={<Redirect />} exact />
           <Route path='*' element={<Error404 />} exact />

@@ -36,7 +36,7 @@ function SideBar({ sideBarActive, userInfo, setDarkModeActive, darkModeActive })
     return (
         <div className='flex flex-col space-y-4 items-center lg:items-start justify-start w-full px-4 py-2 col-span-2 '>
             <div className='flex justify-center lg:justify-start  w-full px-4 py-2'>
-                <img className='h-7 w-7 ' src="/twitter-blue.png" alt="" />
+                <img className='h-5 w-5 md:h-7 md:w-7 ' src="/twitter-blue.png" alt="" />
             </div>
             <div className='flex flex-col items-start justify-center space-y-4'>
                 <SideBarIcons clickHandler={clickHandler} Icon={HomeIcon} title='Home' />

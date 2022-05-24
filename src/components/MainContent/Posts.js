@@ -48,7 +48,7 @@ function Posts({ tweetArray, type, searchData, userInfo }) {
 
                             <div className='flex flex-col px-2 h-auto w-3/4'>
                                 <div className='flex space-x-3 text-sm font-medium items-center'>
-                                    <p>{e.userEmail && userInfo.userName}</p>
+                                    <p className=' hidden lg:inline-block'>{e.userEmail && userInfo.userName}</p>
                                     <p className=' text-xs text-slate-500'>{e.userName ? `@${e.userName}` : `@${userInfo.userName}`}</p>
                                     {e.createdAt && <p className=' text-gray-400 font-light text-xs'><Timeago date={e.name ? e.name : e.createdAt} /></p>}
                                 </div>
