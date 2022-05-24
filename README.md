@@ -2,6 +2,9 @@
 
 Created Using React JS, Redux, Tailwind CSS, Node JS and MongoDB.
 
+App URL: https://twitter-clone-app-v3.herokuapp.com/
+
+
 / Route:
 Home page, you can view your posts and can access the Trending section which provides the trending topics and the search tweets based on Keywords.
 
